@@ -1,0 +1,18 @@
+.text {
+    /*width: 100%;*/
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.custom-text {
+    color: #595050;
+}
+
+.pic {
+    margin-top: 20px;
+}
+
+.custom {
+    margin-left: 700px;
+    margin-top: 40px;
+}

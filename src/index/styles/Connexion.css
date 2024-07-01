@@ -1,0 +1,174 @@
+.logo {
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+}
+
+.intro-word {
+  font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: x-large;
+  font-variation-settings: "wdth" 100;
+}
+
+.store {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sub-text {
+  font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(126, 122, 122);
+  font-size: small;
+  font-variation-settings: "wdth" 100;
+}
+.note {
+  margin-bottom: 0.1rem;
+}
+
+.link-deco {font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(231, 69, 69);
+  font-size: small;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+}
+
+.link-deco:hover {
+  color: #9c4908; /* Set the hover color */
+}
+
+.centered {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.entries {
+  /* margin-right: 200px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  width: 900px;
+  border-radius: 54px;
+  background-color: #FFD3D3;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.388);
+  transition: width 0.5s, height 0.5s;
+}
+
+.user {
+  margin-bottom: 0px;
+}
+
+.pass {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.entries-pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.centered-img {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.image {
+  margin-left: 60px;
+  width: 300px;
+  height: 300px;
+  transition: width 0.5s, height 0.5s; /* Add a transition effect for width and height changes */
+}
+
+.image-radio-group {
+  margin-bottom: 0.75rem;
+}
+
+.top-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 60%;
+  z-index: -1;
+}
+
+.bot-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 60%;
+  z-index: -1;
+}
+
+.logo-cont {
+  padding-left: 4.5rem;
+}
+
+.custom-button {
+  background-color: #FFB7D0;
+  color: #000000; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.388);
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #bd6643; /* Change background color on hover */
+}
+
+.interface {
+  width: 80px;
+  height: 80px;
+}
+
+.remember {
+  margin-bottom: 10px;
+}
+
+.react-datepicker {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .image {
+    display: none;
+  }
+  .logo {
+    margin-right: 150px;
+  }
+  .entries {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 600px;
+    border-radius: 54px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .image {
+    display: none;
+  }
+  .logo {
+    margin-right: 150px;
+  }
+  .entries {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    border-radius: 54px;
+  }
+}
